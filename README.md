@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Family Events Web App
+
+A beautiful web application for sharing and celebrating family events and milestones. Built with Next.js, TypeScript, and Tailwind CSS.
+
+## Features
+
+- **Homepage**: Showcases family photos and featured events
+- **Event Pages**: Dedicated pages for each family event with:
+  - Custom invitation graphics
+  - Event details (date, time, location)
+  - Photo galleries (post-event)
+  - Guest messages and thank-you notes
+- **Responsive Design**: Beautiful on all devices
+- **Modern Stack**: Next.js, TypeScript, and Tailwind CSS
 
 ## Getting Started
 
-First, run the development server:
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+2. Run the development server:
+   ```bash
+   npm run dev
+   ```
+
+3. Open [http://localhost:3000](http://localhost:3000) in your browser
+
+## Project Structure
+
+```
+src/
+├── app/
+│   ├── events/
+│   │   ├── [slug]/
+│   │   │   └── layout.tsx    # Event page layout
+│   │   ├── page.tsx          # Events listing page
+│   │   └── pre-baby-summer-2025/
+│   │       └── page.tsx      # Sample event page
+│   ├── layout.tsx            # Root layout
+│   └── page.tsx              # Homepage
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Adding New Events
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Create a new directory under `src/app/events/` with your event slug
+2. Create a `page.tsx` file in the new directory
+3. Use the existing event page as a template
+4. Update the events listing page to include the new event
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Technologies
 
-## Learn More
+- [Next.js](https://nextjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
 
-To learn more about Next.js, take a look at the following resources:
+## License
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+MIT
