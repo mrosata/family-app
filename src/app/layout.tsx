@@ -6,8 +6,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Family Events & Milestones",
-  description: "A place to share and celebrate our family moments",
+  title: "Rosata Panchanan Family",
+  description: "A place to share and celebrate our family moments, event invites, photos, and more!",
 };
 
 export default function RootLayout({

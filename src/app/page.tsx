@@ -7,11 +7,10 @@ export default function Home() {
       {/* Hero Section */}
       <section className="text-center space-y-6">
         <h1 className="text-4xl font-bold text-adaptive-gray-900 sm:text-5xl md:text-6xl">
-          Welcome to Our Family
+          Welcome to the Rosata Panchanan Family
         </h1>
         <p className="text-xl text-adaptive-gray-600 max-w-2xl mx-auto">
-          Join us in celebrating life&apos;s precious moments and milestones. From baby showers to birthdays,
-          every moment is worth remembering.
+          We&apos;re excited to share our family&apos;s journey with you! This is where we keep our loved ones updated on all our special moments, celebrations, and milestones. Stay connected with us as our family grows and creates beautiful memories together.
         </p>
       </section>
 
@@ -22,7 +21,7 @@ export default function Home() {
           <div className="absolute inset-0 flex items-center justify-center">
             <div className="text-center text-white p-6">
               <h2 className="text-3xl font-bold mb-2">Pre-Baby Summer Party</h2>
-              <p className="text-lg">Join us for a celebration before our newest family member arrives!</p>
+              <p className="text-lg">Join the Rosata Panchanan family as we celebrate our growing family!</p>
               <Link 
                 href="/events/pre-baby-summer-2025"
                 className="mt-4 inline-block px-6 py-2 border-2 border-white rounded-full text-white hover:bg-white hover:text-purple-500 transition-colors"
@@ -36,7 +35,7 @@ export default function Home() {
 
       {/* Upcoming Events */}
       <section className="space-y-6">
-        <h2 className="text-2xl font-semibold text-adaptive-gray-900">Upcoming Events</h2>
+        <h2 className="text-2xl font-semibold text-adaptive-gray-900">Our Upcoming Celebrations</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
           <Link 
             href="/events/pre-baby-summer-2025"
@@ -51,7 +50,7 @@ export default function Home() {
 
       {/* Family Photos Grid */}
       <section className="space-y-6">
-        <h2 className="text-2xl font-semibold text-adaptive-gray-900">Family Moments</h2>
+        <h2 className="text-2xl font-semibold text-adaptive-gray-900">Our Family Moments</h2>
         <GalleryGrid />
       </section>
     </div>
