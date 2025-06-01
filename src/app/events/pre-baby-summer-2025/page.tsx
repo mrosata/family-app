@@ -106,7 +106,7 @@ export default function PreBabySummerParty() {
                   </div>
                   <div className="w-32 h-32">
                     <Image
-                      src="/images/registry-qr.png"
+                      src="/images/babylist-qr.png"
                       alt="Registry QR Code"
                       width={128}
                       height={128}
