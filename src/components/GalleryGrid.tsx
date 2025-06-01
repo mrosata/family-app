@@ -15,7 +15,6 @@ const allPhotos: Photo[] = [
   { src: '/images/gallery/wedding-india-2.jpg', alt: 'Indian wedding moments' },
   { src: '/images/gallery/engagement-2.jpg', alt: 'Engagement celebration' },
   { src: '/images/gallery/engagement-1.jpg', alt: 'Engagement moment' },
-  { src: '/images/gallery/wedding-encore.jpg', alt: 'Wedding encore celebration' },
   { src: '/images/gallery/wedding-encore-2.jpg', alt: 'Wedding encore moments' },
   { src: '/images/gallery/wedding-encore-1.jpg', alt: 'Wedding encore gathering' },
   { src: '/images/gallery/drummer-park-9-2025.jpg', alt: 'Day at the park' },
