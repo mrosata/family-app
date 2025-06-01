@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
@@ -10,7 +9,7 @@ export default function Home() {
           Welcome to Our Family
         </h1>
         <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-          Join us in celebrating life's precious moments and milestones. From baby showers to birthdays,
+          Join us in celebrating life&apos;s precious moments and milestones. From baby showers to birthdays,
           every moment is worth remembering.
         </p>
       </section>

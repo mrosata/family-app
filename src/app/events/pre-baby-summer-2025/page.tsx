@@ -1,5 +1,3 @@
-import Image from 'next/image'
-
 export default function PreBabySummerParty() {
   return (
     <article className="divide-y divide-gray-200">
