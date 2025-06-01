@@ -1,4 +1,5 @@
 import Link from "next/link";
+import GalleryGrid from "@/components/GalleryGrid";
 
 export default function Home() {
   return (
@@ -33,20 +34,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Family Photos Grid */}
-      <section className="space-y-6">
-        <h2 className="text-2xl font-semibold text-adaptive-gray-900">Family Moments</h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {[1, 2, 3].map((i) => (
-            <div key={i} className="aspect-square relative rounded-lg overflow-hidden bg-adaptive-gray-100">
-              <div className="absolute inset-0 flex items-center justify-center text-adaptive-gray-500">
-                Placeholder Photo {i}
-              </div>
-            </div>
-          ))}
-        </div>
-      </section>
-
       {/* Upcoming Events */}
       <section className="space-y-6">
         <h2 className="text-2xl font-semibold text-adaptive-gray-900">Upcoming Events</h2>
@@ -60,6 +47,12 @@ export default function Home() {
             <span className="inline-block mt-4 text-blue-600 dark:text-blue-400">View details →</span>
           </Link>
         </div>
+      </section>
+
+      {/* Family Photos Grid */}
+      <section className="space-y-6">
+        <h2 className="text-2xl font-semibold text-adaptive-gray-900">Family Moments</h2>
+        <GalleryGrid />
       </section>
     </div>
   );

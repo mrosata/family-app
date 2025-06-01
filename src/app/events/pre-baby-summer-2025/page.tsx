@@ -62,19 +62,19 @@ export default function PreBabySummerParty() {
               <dt className="text-sm font-medium text-adaptive-gray-500">Registry</dt>
               <dd className="text-lg text-adaptive-gray-900 space-y-4">
                 <p>
-                  While your presence is the greatest gift, for those who have asked, we are registered at:
+                  While your presence is the greatest gift, for those who have asked, we are registered at Babylist:
                 </p>
                 <div className="flex flex-col sm:flex-row items-center gap-8">
                   <div className="text-center">
-                    <a 
+                  <p className="text-sm text-adaptive-gray-500 mt-2">Click or scan QR code</p>
+                  <a 
                       href="https://my.babylist.com/michael-rosata"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-teal-600 hover:text-teal-700 dark:text-teal-400 dark:hover:text-teal-300 underline"
                     >
-                      View our Babylist Registry
+                      Priyanka and Michaels Babylist Registry
                     </a>
-                    <p className="text-sm text-adaptive-gray-500 mt-2">Click or scan QR code</p>
                   </div>
                   <div className="w-32 h-32">
                     <Image
@@ -103,7 +103,7 @@ export default function PreBabySummerParty() {
         <div className="space-y-6">
           <h2 className="text-2xl font-semibold text-adaptive-gray-900">Messages</h2>
           <p className="text-adaptive-gray-600 italic">
-            Guest messages and well-wishes will appear here after the event.
+            Signed guest messages from the party will appear here after the event.
           </p>
         </div>
       </div>
