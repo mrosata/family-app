@@ -4,8 +4,8 @@ export default function EventsPage() {
   return (
     <div className="space-y-8">
       <header>
-        <h1 className="text-3xl font-bold text-gray-900">Family Events</h1>
-        <p className="mt-2 text-gray-600">
+        <h1 className="text-3xl font-bold text-adaptive-gray-900">Family Events</h1>
+        <p className="mt-2 text-adaptive-gray-600">
           Browse through our family celebrations and milestones.
         </p>
       </header>
@@ -24,15 +24,15 @@ export default function EventsPage() {
             </div>
           </div>
           <div className="mt-4">
-            <p className="text-gray-600">
+            <p className="text-adaptive-gray-600">
               Join us for a celebration before our newest family member arrives!
             </p>
           </div>
         </Link>
 
         {/* Placeholder for future events */}
-        <div className="aspect-[3/2] relative overflow-hidden rounded-lg bg-gray-100 flex items-center justify-center">
-          <p className="text-gray-400 text-center px-4">
+        <div className="aspect-[3/2] relative overflow-hidden rounded-lg bg-adaptive-gray-100 flex items-center justify-center">
+          <p className="text-adaptive-gray-500 text-center px-4">
             More events coming soon...
           </p>
         </div>

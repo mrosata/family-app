@@ -2,9 +2,9 @@ import Image from "next/image";
 
 export default function PreBabySummerParty() {
   return (
-    <article className="max-w-4xl mx-auto divide-y divide-gray-200">
+    <article className="max-w-4xl mx-auto divide-y divide-gray-200 dark:divide-gray-700">
       {/* Event Header/Invitation */}
-      <div className="relative bg-[#FFF8F3] p-8 rounded-lg shadow-sm">
+      <div className="relative bg-[#FFF8F3] dark:bg-[#2A1F1B] p-8 rounded-lg shadow-sm">
         <div className="max-w-2xl mx-auto text-center space-y-6">
           {/* Summer Icons */}
           <div className="flex justify-between items-center px-4">
@@ -23,7 +23,7 @@ export default function PreBabySummerParty() {
           </div>
 
           <div className="space-y-3">
-            <h2 className="text-[#008080] text-xl font-medium">JOIN US FOR A</h2>
+            <h2 className="text-[#008080] dark:text-[#4FD1D1] text-xl font-medium">JOIN US FOR A</h2>
             <h1 className="text-4xl sm:text-5xl font-bold">
               <span className="text-[#FF6B4A]">PRE-BABY</span>
               <br />
@@ -33,7 +33,7 @@ export default function PreBabySummerParty() {
             </h1>
           </div>
 
-          <div className="space-y-2 text-[#008080] text-xl">
+          <div className="space-y-2 text-[#008080] dark:text-[#4FD1D1] text-xl">
             <p>JULY 12 • AT 1:00 PM</p>
             <p>5 LONGFELLOW PLACE</p>
             <p>BOSTON, MA 02114</p>
@@ -60,17 +60,17 @@ export default function PreBabySummerParty() {
       {/* Event Details */}
       <div className="px-6 py-8 sm:p-10 space-y-8">
         <div className="space-y-6">
-          <h2 className="text-2xl font-semibold text-gray-900">Event Details</h2>
+          <h2 className="text-2xl font-semibold text-adaptive-gray-900">Event Details</h2>
           
           <dl className="grid grid-cols-1 gap-6 sm:grid-cols-2">
             <div className="space-y-1">
-              <dt className="text-sm font-medium text-gray-500">Date & Time</dt>
-              <dd className="text-lg text-gray-900">July 12, 2025 • 1:00 PM onward</dd>
+              <dt className="text-sm font-medium text-adaptive-gray-500">Date & Time</dt>
+              <dd className="text-lg text-adaptive-gray-900">July 12, 2025 • 1:00 PM onward</dd>
             </div>
             
             <div className="space-y-1">
-              <dt className="text-sm font-medium text-gray-500">Location</dt>
-              <dd className="text-lg text-gray-900">
+              <dt className="text-sm font-medium text-adaptive-gray-500">Location</dt>
+              <dd className="text-lg text-adaptive-gray-900">
                 5 Longfellow Place
                 <br />
                 Boston, MA 02114
@@ -78,8 +78,8 @@ export default function PreBabySummerParty() {
             </div>
 
             <div className="space-y-1 sm:col-span-2">
-              <dt className="text-sm font-medium text-gray-500">What to Expect</dt>
-              <dd className="text-lg text-gray-900">
+              <dt className="text-sm font-medium text-adaptive-gray-500">What to Expect</dt>
+              <dd className="text-lg text-adaptive-gray-900">
                 Join us for an afternoon of joy and celebration as we prepare to welcome the newest 
                 member of our family. There will be games, refreshments, and lots of love to share!
               </dd>
@@ -87,8 +87,8 @@ export default function PreBabySummerParty() {
 
             {/* Registry Section */}
             <div className="space-y-1 sm:col-span-2">
-              <dt className="text-sm font-medium text-gray-500">Registry</dt>
-              <dd className="text-lg text-gray-900 space-y-4">
+              <dt className="text-sm font-medium text-adaptive-gray-500">Registry</dt>
+              <dd className="text-lg text-adaptive-gray-900 space-y-4">
                 <p>
                   While your presence is the greatest gift, for those who have asked, we are registered at:
                 </p>
@@ -98,11 +98,11 @@ export default function PreBabySummerParty() {
                       href="https://my.babylist.com/michael-rosata"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-teal-600 hover:text-teal-700 underline"
+                      className="text-teal-600 hover:text-teal-700 dark:text-teal-400 dark:hover:text-teal-300 underline"
                     >
                       View our Babylist Registry
                     </a>
-                    <p className="text-sm text-gray-500 mt-2">Click or scan QR code</p>
+                    <p className="text-sm text-adaptive-gray-500 mt-2">Click or scan QR code</p>
                   </div>
                   <div className="w-32 h-32">
                     <Image
@@ -121,16 +121,16 @@ export default function PreBabySummerParty() {
 
         {/* Photo Gallery Section (Initially Empty) */}
         <div className="space-y-6">
-          <h2 className="text-2xl font-semibold text-gray-900">Photo Gallery</h2>
-          <p className="text-gray-600 italic">
+          <h2 className="text-2xl font-semibold text-adaptive-gray-900">Photo Gallery</h2>
+          <p className="text-adaptive-gray-600 italic">
             Photos from the event will be shared here after the celebration.
           </p>
         </div>
 
         {/* Messages Section (Initially Empty) */}
         <div className="space-y-6">
-          <h2 className="text-2xl font-semibold text-gray-900">Messages</h2>
-          <p className="text-gray-600 italic">
+          <h2 className="text-2xl font-semibold text-adaptive-gray-900">Messages</h2>
+          <p className="text-adaptive-gray-600 italic">
             Guest messages and well-wishes will appear here after the event.
           </p>
         </div>

@@ -17,16 +17,16 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} min-h-screen bg-gray-50`}>
-        <nav className="bg-white shadow-sm">
+      <body className={`${inter.className} min-h-screen bg-adaptive-gray-50`}>
+        <nav className="bg-white dark:bg-gray-900 shadow-sm">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex justify-between h-16 items-center">
-              <Link href="/" className="text-xl font-semibold text-gray-800">
+              <Link href="/" className="text-xl font-semibold text-adaptive-gray-900">
                 Our Family
               </Link>
               <div className="flex space-x-4">
-                <Link href="/" className="text-gray-600 hover:text-gray-900">Home</Link>
-                <Link href="/events" className="text-gray-600 hover:text-gray-900">Events</Link>
+                <Link href="/" className="text-adaptive-gray-600 hover:text-adaptive-gray-900">Home</Link>
+                <Link href="/events" className="text-adaptive-gray-600 hover:text-adaptive-gray-900">Events</Link>
               </div>
             </div>
           </div>
@@ -34,9 +34,9 @@ export default function RootLayout({
         <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           {children}
         </main>
-        <footer className="bg-white border-t mt-auto">
+        <footer className="bg-white dark:bg-gray-900 border-t mt-auto">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-            <p className="text-center text-gray-500">© {new Date().getFullYear()} Our Family. All rights reserved.</p>
+            <p className="text-center text-adaptive-gray-500">© {new Date().getFullYear()} Our Family. All rights reserved.</p>
           </div>
         </footer>
       </body>

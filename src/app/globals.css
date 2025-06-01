@@ -3,6 +3,13 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --gray-50: #f9fafb;
+  --gray-100: #f3f4f6;
+  --gray-200: #e5e7eb;
+  --gray-500: #6b7280;
+  --gray-600: #4b5563;
+  --gray-800: #1f2937;
+  --gray-900: #111827;
 }
 
 @theme inline {
@@ -16,6 +23,13 @@
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+    --gray-50: #18181b;
+    --gray-100: #27272a;
+    --gray-200: #3f3f46;
+    --gray-500: #a1a1aa;
+    --gray-600: #d4d4d8;
+    --gray-800: #e4e4e7;
+    --gray-900: #fafafa;
   }
 }
 
@@ -24,3 +38,15 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Dark mode optimized text classes */
+.text-adaptive-gray-50 { color: var(--gray-50); }
+.text-adaptive-gray-100 { color: var(--gray-100); }
+.text-adaptive-gray-200 { color: var(--gray-200); }
+.text-adaptive-gray-500 { color: var(--gray-500); }
+.text-adaptive-gray-600 { color: var(--gray-600); }
+.text-adaptive-gray-800 { color: var(--gray-800); }
+.text-adaptive-gray-900 { color: var(--gray-900); }
+
+.bg-adaptive-gray-50 { background-color: var(--gray-50); }
+.bg-adaptive-gray-100 { background-color: var(--gray-100); }

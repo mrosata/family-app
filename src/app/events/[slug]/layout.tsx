@@ -5,7 +5,7 @@ export default function EventLayout({
 }) {
   return (
     <div className="max-w-4xl mx-auto">
-      <div className="bg-white rounded-xl shadow-sm overflow-hidden">
+      <div className="bg-white dark:bg-gray-800 rounded-xl shadow-sm overflow-hidden">
         {children}
       </div>
     </div>
