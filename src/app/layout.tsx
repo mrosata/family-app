@@ -22,7 +22,7 @@ export default function RootLayout({
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex justify-between h-16 items-center">
               <Link href="/" className="text-xl font-semibold text-adaptive-gray-900">
-                Our Family
+                Rosata Panchanan Family
               </Link>
               <div className="flex space-x-4">
                 <Link href="/" className="text-adaptive-gray-600 hover:text-adaptive-gray-900">Home</Link>
@@ -36,7 +36,7 @@ export default function RootLayout({
         </main>
         <footer className="bg-white dark:bg-gray-900 border-t mt-auto">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-            <p className="text-center text-adaptive-gray-500">© {new Date().getFullYear()} Our Family. All rights reserved.</p>
+            <p className="text-center text-adaptive-gray-500">© {new Date().getFullYear()} Rosata Panchanan Family. All rights reserved.</p>
           </div>
         </footer>
       </body>
